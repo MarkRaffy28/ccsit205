@@ -1,9 +1,10 @@
-.footer {
-  margin-top: auto;
-  background-color: #747272;
-  color: white;
-  padding-top: 3em;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+.footer{
+    margin-top: auto;
+    background-color: #747272;
+    color: white;
+    padding-top: 3rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2%;
 }
