@@ -1,64 +1,47 @@
-import facebook from '../assets/facebook.svg';
-import instagram from '../assets/instagram.svg';
-import envelope from '../assets/envelope.svg';
-import './Footer.css';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
   return (
-    <div className="footer">
-        <div className="container">
-            <div className="row">
-                {/*Column 1*/}
-                <div className="col">
-                    <h4>ISPSC STA. MARIA CAMPUS</h4>
-                    <ui className="list-unstyled">
-                        <li>+639-123-456-789</li>
-                        <li>Poblacion, Norte</li>
-                        <li>Sta. Maria, Ilocos Sur</li>
-                    </ui>
-                </div>
+    <footer className="pt-4">
+      <Container>
+        <Row>
+          <Col md={3}>
+            <h5 className="fw-bold">About Us</h5>
+            <p>Short description about your company.</p>
+          </Col>
 
-                {/*Column 2*/}
-                <div className="col">
-                    <h4>Section</h4>
-                    <ui className="list-unstyled">
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>FAQs</li>
-                    <li>About</li>
-                    </ui>
-                </div>
+          <Col md={3}>
+            <h5 className="fw-bold">Contact Us</h5>
+            <ul className="list-unstyled">
+              <li><a href="#"><i className="fa-solid fa-house"></i> 123 St., Manila</a></li>
+              <li><a href="#"><i className="fa-solid fa-phone"></i> (+63) 912-345-6789</a></li>
+              <li><a href="#"><i className="fa-solid fa-envelope"></i> gagrecipes@gmail.com</a></li>
+            </ul>
+          </Col>
 
-                {/*Column 3*/}
-                <div className="col">
-                    <h4>Contact Us</h4>
-                    <ui className="list-unstyled">
-                            <a href="https://facebook.com/kathewinnn">
-                            <img 
-                            src={facebook} 
-                            alt="facebook"
-                            style={{cursor: "pointer"}}
-                            />
-                        </a> {" "}
-                            <a href="https://instagram.com/fwairy.kth">
-                            <img 
-                            src={instagram} 
-                            alt="instagram"
-                            style={{cursor: "pointer"}}/>
-                        </a> {" "}
-                            <a href="mailto: itsmemae45@gmail.com">
-                            <img 
-                            src={envelope} 
-                            alt="email"
-                            style={{cursor: "pointer"}}/>
-                        </a>
-                    </ui>
-                </div>
-            </div>
+          <Col md={3}>
+            <h5 className="fw-bold">Follow Us</h5>
+            <a href="#"><i className="fa-brands fa-facebook"></i></a>
+            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+          </Col>
+
+          <Col md={3}>
+            <h5 className="fw-bold">Legal</h5>
+            <ul className="list-unstyled">
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+            </ul>
+          </Col>
+        </Row>
+
+        <div className="text-center py-3 border-top mt-3">
+          © 2025 Grow a Garden Guide
         </div>
-    </div>
-  )
-}
+      </Container>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
