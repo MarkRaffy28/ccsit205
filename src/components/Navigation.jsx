@@ -23,7 +23,7 @@ function Navigation() {
             <Nav.Link href="/contact" className="fw-bold">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex" role="search">
-            <FormControl type="search" placeholder="Search" className="me-2" />
+            <Form.Control type="search" placeholder="Search" className="me-2" />
             <Button variant="success" type="submit">Search</Button>
           </Form>
         </Navbar.Collapse>

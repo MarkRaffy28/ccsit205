@@ -2,13 +2,17 @@
   background-color: #ff8d21;
 }
 
+.navbar-title {
+  font-size: 18px;
+}
+
 .nav-link,
 .burger {
   color: #002366;
 }
 
-.navbar-title {
-  font-size: 18px;
+.nav-link:hover {
+  color: #ffffff;
 }
 
 .navbar-toggler,

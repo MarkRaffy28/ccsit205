@@ -28,32 +28,32 @@ function Footer() {
                 <a href="#">
                   <img src={geo_alt_fill} alt="geo_alt_fill" />
                   Tinaan, Sta. Maria, Ilocos Sur
-                </a>
+                </a> {" "}
                 <a href="#">
                   <img src={telephone_fill} alt="telephone_fill" />
                   +63 999-757-8755
-                </a>
+                </a> {" "}
                 <a href="mailto: mark.inclusive1298@gmail.com">
                   <img src={envelope_fill} alt="envelope_fill" />
                   mark.inclusive1298@gmail.com
                 </a>
               </li>
             </ul>
-          </Col>
+          </Col>''
 
           <Col md={3} className="socials">
             <h5 className="fw-bold">Socials</h5>
             <a href="https://github.com/MarkRaffy28" className="github">
-              <img src="{github}" alt="github" />
+              <img src={github} alt="github" />
             </a>
             <a href="https://www.facebook.com/markraffy.romero" className="facebook">
-              <img src="{facebook}" alt="facebook" />
+              <img src={facebook} alt="facebook" />
             </a>
             <a href="https://x.com/MarkRaffy28" className="twitter">
-              <img src="{twitter}" alt="twitter" />
+              <img src={twitter} alt="twitter" />
             </a>
             <a href="https://t.me/MarkRaffy28" className="telegram">
-              <img src="{telegram}" alt="telegram" />
+              <img src={telegram} alt="telegram" />
             </a>
           </Col>
 
