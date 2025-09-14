@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './Footer.css';
+
 import geo_alt_fill from '../assets/geo_alt_fill.svg';
 import telephone_fill from '../assets/telephone_fill.svg';
 import envelope_fill from '../assets/../assets/envelope_fill.svg';

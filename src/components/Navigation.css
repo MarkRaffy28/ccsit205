@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #ff8d21;
+}
+
+.nav-link,
+.burger {
+  color: #002366;
+}
+
+.navbar-title {
+  font-size: 18px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none;
+  box-shadow: none;
+}
