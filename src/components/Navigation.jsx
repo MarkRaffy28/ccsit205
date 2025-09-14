@@ -10,7 +10,7 @@ function Navigation() {
     <Navbar expand="lg" sticky="top">
       <Container fluid>
         <Navbar.Brand href="/home">
-          <img src={react} alt="react" height="24" className="burger" /> {" "}
+          <img src={react} alt="react" height="26" className="burger" /> {" "}
           <span className="fw-bold navbar-title">Mashu Personal Website</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-content">
@@ -24,7 +24,7 @@ function Navigation() {
           </Nav>
           <Form className="d-flex">
             <Form.Control type="search" placeholder="Search" className="me-2" />
-            <Button variant="outline">Search</Button>
+            <Button variant="success">Search</Button>
           </Form> 
         </Navbar.Collapse>
       </Container>
