@@ -1,68 +1,68 @@
 .gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: 200px;
-    gap: 10px;
-    padding: 10px;
-    grid-auto-flow: dense;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  gap: 10px;
+  padding: 10px;
+  grid-auto-flow: dense;
 }
 .card {
-    position: relative;
-    overflow: hidden;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
 }
  
 .card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card.wide {
-    grid-column: span 2;
-    border: 3px solid #1E90FF;
+  grid-column: span 2;
+  border: 3px solid #1E90FF;
 }
 
 .card.tall {
-    grid-row: span 2;
-    border: 3px solid #3CB043;
+  grid-row: span 2;
+  border: 3px solid #3CB043;
 }
 
 .card.small {
-    border: 3px solid #F5D418;
+  border: 3px solid #F5D418;
 }
 
 .card.large {
-    grid-column: span 2;
-    grid-row: span 2;
-    border: 3px solid #E33924;
+  grid-column: span 2;
+  grid-row: span 2;
+  border: 3px solid #E33924;
 }
 
 
 .card:hover {
-    --angle: 0deg;
-    border: 3px solid;
-    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
-    animation: 5s rotate linear infinite;
+  --angle: 0deg;
+  border: 3px solid;
+  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+  animation: 5s rotate linear infinite;
     
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 @keyframes rotate {
-    to {--angle: 360deg}
+  to {--angle: 360deg}
 }
 @property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
 }    
 
-.gallery:hover .card:not(:hover) {
-    filter: blur(5px);
-    transform: scale(0.95);
+.gallery-container:hover .card:not(:hover) {
+  filter: blur(5px);
+  transform: scale(0.95);
 }
 
