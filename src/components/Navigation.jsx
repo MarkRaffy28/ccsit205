@@ -7,14 +7,14 @@ import burger from '../assets/burger.svg';""
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar expand="lg" sticky="top">
       <Container fluid>
         <Navbar.Brand href="/home">
-          <img src={react} alt="react" height="30" className="burger" /> {" "}
+          <img src={react} alt="react" height="24" className="burger" /> {" "}
           <span className="fw-bold navbar-title">Mashu Personal Website</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-content">
-          <img src={burger} alt="burger" height="20" />
+          <img src={burger} alt="burger" height="24" />
         </Navbar.Toggle>
         <Navbar.Collapse id="navbar-content">
           <Nav className="me-auto mb-2 mb-lg-0">

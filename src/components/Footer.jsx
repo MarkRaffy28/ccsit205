@@ -5,7 +5,7 @@ import './Footer.css';
 
 import geo_alt_fill from '../assets/geo_alt_fill.svg';
 import telephone_fill from '../assets/telephone_fill.svg';
-import envelope_fill from '../assets/../assets/envelope_fill.svg';
+import envelope_fill from '../assets/envelope_fill.svg';
 import github from '../assets/github.svg';
 import facebook from '../assets/facebook.svg';
 import twitter from '../assets/twitter.svg';
@@ -44,7 +44,7 @@ function Footer() {
           <Col md={3} className="socials">
             <h5 className="fw-bold">Socials</h5>
             <a href="https://github.com/MarkRaffy28" className="github">
-              <img src="{gihub}" alt="github" />
+              <img src="{github}" alt="github" />
             </a>
             <a href="https://www.facebook.com/markraffy.romero" className="facebook">
               <img src="{facebook}" alt="facebook" />
