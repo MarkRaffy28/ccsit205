@@ -1,10 +1,29 @@
-.footer{
-    margin-top: auto;
-    background-color: #151320;
-    color: white;
-    padding-top: 3rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding-bottom: 2%;
+footer {
+  background-color: #ff8d21;
+  color: #002366;
 }
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.contacts img {
+  width: 160px;
+  margin-right: 5px;
+}
+
+.socials img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.github:hover {color: #181717}
+.facebook:hover {color: #3b5998}
+.twitter:hover {color: #000000}
+.telegram:hover {color: #0088CC}
