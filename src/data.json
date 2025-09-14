@@ -1,50 +1,70 @@
 [
   {
-    "title": "Rengoku",
-    "text": "Kyojuro Rengoku (煉れん獄ごく 杏きょう寿じゅ郎ろう Rengoku Kyōjurō?) was a major supporting character of Demon Slayer: Kimetsu no Yaiba and the deuteragonist of the Mugen Train Arc. He was a Demon Slayer of the Demon Slayer Corps and the late Flame Hashira",
-    "img": "Rengoku",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Kyojuro_Rengoku"
+    "size" : "large",
+    "img" : "https://dl.dropbox.com/scl/fi/gt0jrcmh7o1qa6hoa13rs/img_1.jpg?rlkey=szof6z81hjwkd8bjgoputxys2&st=95cezez3&dl=0"
   },
   {
-    "title": "Inosuke",
-    "text": "Inosuke Hashibira (嘴はし平びら 伊い之の助すけ Hashibira Inosuke?) is one of the main characters of Demon Slayer: Kimetsu no Yaiba and along with Zenitsu Agatsuma, a traveling companion of Tanjiro Kamado and Nezuko Kamado.",
-    "img": "boar",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Inosuke_Hashibira"
+    "size" : "wide",
+    "img" : "https://dl.dropbox.com/scl/fi/c73yzxydu1wn46ws56z9g/img_2.jpg?rlkey=0xka8i63mbrtucilmwpexiyqz&st=t0d0ieri&dl=0"
   },
   {
-    "title": "Tengen",
-    "text": "Tengen Uzui (宇う髄ずい 天てん元げん Uzui Tengen?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba and a major character in the Entertainment District Arc.",
-    "img": "uzui",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Tengen_Uzui"
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/ces3miy9vjuutkopy7aam/img_3.jpg?rlkey=jwykip47kjwuw547qu9agrt9k&st=ijo83ohw&dl=0"
   },
   {
-    "title": "Mitsuri",
-    "text": "Mitsuri Kanroji (甘かん露ろ寺じ 蜜みつ璃り Kanroji Mitsuri?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba. She is a Demon Slayer of the Demon Slayer Corps and the current Love Hashira (恋こい柱ばしら Koi Bashira?).",
-    "img": "mitsuri",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Mitsuri_Kanroji"
+    "size" : "wide",
+    "img" : "https://dl.dropbox.com/scl/fi/hoi8540oxiegq4h2sbx68/img_4.jpg?rlkey=uemgfm6pmprcs2uw4w0pbx6rb&st=db6xwo9n&dl=0"
   },
   {
-    "title": "Zenitsu",
-    "text": "Zenitsu Agatsuma (我あが妻つま 善ぜん逸いつ Agatsuma Zen'itsu?) is one of the main characters of Demon Slayer: Kimetsu no Yaiba and along with Inosuke Hashibira, a travelling companion of Tanjiro Kamado and Nezuko Kamado.",
-    "img": "zenitsu",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Zenitsu_Agatsuma"
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/alk40l46whfut8tww2l65/img_5.jpg?rlkey=ps5o19dqhgfnhqfzwd5tvf48o&st=56qvh31v&dl=0"
   },
   {
-    "title": "Tanjiro",
-    "text": "Akaza (猗あ窩か座ざ Akaza?) is a major supporting antagonist of Demon Slayer: Kimetsu no Yaiba. He is a demon affiliated with the Twelve Kizuki, holding the third highest position, Upper Rank Three (上じょう弦げんの参さん Jōgen no San?)",
-    "img": "tanjiro",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Akaza"
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/5f1bvr7y13thjrpauv4ev/img_6.jpg?rlkey=kwjhij2t0jw0trc1iq1bulm2u&st=p8h592vm&dl=0"
   },
   {
-    "title": "Nezuko",
-    "text": "Nezuko Kamado (竈門かまど 禰ね豆ず子こ Kamado Nezuko?) is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family.",
-    "img": "nezuko",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Nezuko_Kamado"
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/byk5t0430it1icros5kee/img_7.jpg?rlkey=yfsbhwlhpmnn6kpy4cd5ekwr0&st=bzujazai&dl=0"
   },
   {
-    "title": "Akaza",
-    "text": "Akaza (猗あ窩か座ざ Akaza?) is a major supporting antagonist of Demon Slayer: Kimetsu no Yaiba. He is a demon affiliated with the Twelve Kizuki, holding the third highest position, Upper Rank Three (上じょう弦げんの参さん Jōgen no San?)",
-    "img": "akaza",
-    "link": "https://kimetsu-no-yaiba.fandom.com/wiki/Akaza"
+    "size" : "wide",
+    "img" : "https://dl.dropbox.com/scl/fi/4omdp5ccz4wf45wqpsfup/img_8.jpg?rlkey=t56bnec412m66rdike7wbvgek&st=byz9t7hf&dl=0"
+  },
+  {
+    "size" : "tall",
+    "img" : "https://dl.dropbox.com/scl/fi/unpqc7rkzqt0f3ug4wk93/img_9.jpg?rlkey=3fl81bvljh0v7i9s4dbcc7vfk&st=cudqxp5k&dl=0"
+  },
+  {
+    "size" : "tall",
+    "img" : "https://dl.dropbox.com/scl/fi/4w492ww13j905hbpsguvt/img_10.jpg?rlkey=odmbkcjt112ybga4njxvvhe57&st=511nde30&dl=0"
+  },
+  {
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/vvnpn6n4op7t9e6oku0ov/img_11.jpg?rlkey=5p3t0q1h4l7bsen8386ogw13m&st=zdqy3j0r&dl=0"
+  },
+  {
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/e899k4pwoho1g0b2g976l/img_12.jpg?rlkey=5kd3tta18pu3o035tycqp7b0c&st=8ehjn4z0&dl=0"
+  },
+  {
+    "size" : "large",
+    "img" : "https://dl.dropbox.com/scl/fi/d1ykv47ny54gjfzgh37gt/img_13.jpg?rlkey=paoan6xzrn73tmfliqjc730hy&st=iwo56jmz&dl=0"
+  },
+  {
+    "size" : "large",
+    "img" : "https://dl.dropbox.com/scl/fi/4e8jk96vcqgvxi4fok8mh/img_14.jpg?rlkey=5rnhlvfbas5fppyqblpabnqnd&st=b3z82ejw&dl=0"
+  },
+  {
+    "size" : "tall",
+    "img" : "https://dl.dropbox.com/scl/fi/gdc40p0r09dlkaar4ff0e/img_15.jpg?rlkey=yxgzo7jp7xpgbvkdvjr8ojelj&st=9psos646&dl=0"
+  },
+  {
+    "size" : "small",
+    "img" : "https://dl.dropbox.com/scl/fi/drm9j0c5ycx7yh77unooa/img_16.jpg?rlkey=e221vteq7u7zicu4hitzzqtdy&st=ilj6brb0&dl=0"
+  },
+  {
+    "size" : "large",
+    "img" : "https://dl.dropbox.com/scl/fi/bzgi1w40pewtaexo7dn6n/img_17.jpg?rlkey=llyoh6ky7ywfvph8xiwlf8um4&st=wk5b1gyr&dl=0"
   }
 ]
