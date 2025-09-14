@@ -43,32 +43,22 @@ function Footer() {
                 </a>
               </li>
             </ul>
-          </Col>''
+          </Col>
 
           <Col md={3} className="socials mb-3">
             <h5 className="fw-bold">Socials</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a href="https://github.com/MarkRaffy28" className="github">
-                  <img src={github} alt="github" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/markraffy.romero" className="facebook">
-                  <img src={facebook} alt="facebook" />
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/MarkRaffy28" className="twitter">
-                  <img src={twitter} alt="twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="https://t.me/MarkRaffy28" className="telegram">
-                  <img src={telegram} alt="telegram" />
-                </a>
-              </li>
-            </ul>
+            <a href="https://github.com/MarkRaffy28" className="github">
+              <img src={github} alt="github" />
+            </a>
+            <a href="https://www.facebook.com/markraffy.romero" className="facebook">
+              <img src={facebook} alt="facebook" />
+            </a>
+            <a href="https://x.com/MarkRaffy28" className="twitter">
+              <img src={twitter} alt="twitter" />
+            </a>
+            <a href="https://t.me/MarkRaffy28" className="telegram">
+              <img src={telegram} alt="telegram" />
+            </a>
           </Col>
 
           <Col md={3}>
