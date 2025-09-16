@@ -11,7 +11,8 @@
   color: #002366;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-lonk:active {
   color: #ffffff;
 }
 
