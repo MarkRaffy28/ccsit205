@@ -6,40 +6,12 @@ import './Home.css'
 
 function Home() {
   return (
-    <Carousel>
-      <Carousel.Item>
-        <img 
-        style={{height: "90vh", width: '100%'}}
-        className='d-block w-100'
-        src={img1}alt="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img 
-        style={{height: "90vh", width: '100%'}}
-        className='d-block w-100'
-        src={img2}alt="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img 
-        style={{height: "90vh", width: '100%'}}
-        className='d-block w-100'
-        src={img3}alt="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <section className='container m-3'>
+      <div className='d-flex align-items-center flex-column gap-3'>
+        <img className='image border border-2 border-primary' src="https://dl.dropbox.com/scl/fi/d1ykv47ny54gjfzgh37gt/img_13.jpg?rlkey=paoan6xzrn73tmfliqjc730hy&st=iwo56jmz&dl=0" />
+        <h5>Know more about me!</h5>
+      </div>
+    </section>
   )
 }
 
