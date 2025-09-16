@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <section className='container my-5 p-2 d-flex justify-content-center'>
       <div className="row w-100 d-flex justify-content-center">
-        <div className="col-12 col-lg-6">
+        <div className="col-12 col-lg-4">
           <Form ref={form} onSubmit={sendEmail} className="contact-form p-3 border border-2 border-success rounded">
                 <h4 className="fw-bold text-center my-2">Contact</h4>
                 <Form.Group className="mb-3" controlId="formName">
